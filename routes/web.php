@@ -14,19 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layout1.v_template');
+    return view('dasboard.layout');
 });
-
-Route::get('/nilai', function () {
-    return view('nilai');
-});
-Route::get('/nilaihasil', function () {
-    return view('nilaihasil');
-});
-
-/*Route::get('/'. 'PagesController@home');
-/*Route::get('/nilai', 'nilaiController@index');
-*/
-
-
-

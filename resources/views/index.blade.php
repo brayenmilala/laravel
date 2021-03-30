@@ -1,6 +1,6 @@
 @extends('layout/main')
 
-@section('title', 'diksa dinata')
+@section('title', 'BrayenMilala')
 
 @section('container')
 <div class="container">
